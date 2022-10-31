@@ -5,6 +5,6 @@ export function encrypt(clearText: any, secret: any, saltGenerator: any): string
  *
  * @param {*} encryptedHex
  * @param {*} secret
- */
+ */aa
 export function decrypt(encryptedHex: any, secret: any): string;
 export function encryptAes256Ctr(text: any, secret: any): string;
